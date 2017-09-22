@@ -1,0 +1,125 @@
+#wrapper{
+
+    background-color:#f6f6f6;
+    display: flex;
+}
+
+#left{
+     flex: 1; 
+     left:0;
+     width:300px;    
+     background-color:#6d6d6d;
+     height:100vh;
+     position:fixed;
+     top:0;
+}
+
+#center {
+     margin-left:300px;
+     margin-right: 80px;
+     flex: 3;
+     background-color: #f6f6f6;
+
+}
+
+#right{
+    width:80px;
+    right:0;
+    height:100vh;
+    position:fixed;
+    top:0;
+    background-color: #f6f6f6;
+}
+
+#aboutme {
+    padding:90px;
+    line-height: 180%;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 16px;
+    width:700px;
+    color:#2e3947;
+}
+#homepage {
+    padding:400px;
+    background-color: #6d6d6d;
+}
+
+#homepic {
+    position:fixed;
+    top:35px;
+    margin: 0 auto;
+    opacity: 0.5;
+    width:400px;
+}
+
+.homenav {
+    padding-right:37px;
+    text-decoration: none;
+}
+
+#homenav {
+    width:800px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 19px;
+    position:fixed;
+    top:450px;
+}
+
+#homefreda {
+    position: fixed;
+    top:270px;
+    opacity: 0.6;
+}
+
+h1 {
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+
+#freda{
+    position:fixed;
+    width:70px;
+    bottom:10px;
+    right:10px;
+
+}
+
+#ball {
+    float:flex;
+    position:fixed;
+    left:0;
+    top:70px;
+    width:300px;
+}
+
+.gal {
+    float:left;
+    width: 150px;
+    padding:20px;
+}
+
+#gallery {
+    padding:200px 0px 200px 0px;
+}
+
+#menu2 {
+    font-family: 'Cutive Mono', monospace;
+    color: white;
+    list-style-type: none;
+    text-align: right;
+    line-height: 200%;
+    font-size: 24px;
+}
+
+#menu {
+    position:fixed;
+    top:350px;
+    left:30px;
+
+}
+
+a:visited, a:link {
+    text-decoration: none;
+    color: white;
+}
